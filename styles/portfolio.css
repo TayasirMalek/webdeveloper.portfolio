@@ -211,14 +211,48 @@ main section {
     font-weight: 400;
     line-height: 28px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer styles */
-footer{
+footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 113px;
+    gap: 117px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],.contact input[type="email"],
+
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 60%;
+}
+
+.footer-title{
+    text-align: left;
+}
+.social-links a{
+    margin-right: 24px;
+}
+.footer-description{
+    text-align: left;
+    
 }
